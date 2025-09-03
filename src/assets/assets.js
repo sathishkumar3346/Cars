@@ -50,6 +50,12 @@ import RollsRoyce from "./RollsRoyce.jpg"
 import Sathish from './Sathish.jpeg'
 import Rishi from './Rishi.jpg'
 import Umar from './umar.jpg'
+
+import baner1 from './hero-slide-1.jpg'
+import baner2 from './hero-slide-2.jpg'
+import baner3 from './hero-slide-3.jpg'
+
+
 export const assets = {
     // logo,
    
@@ -265,5 +271,22 @@ export const member=[
   {
     "name": "Umar",
     "image": Umar
+  }
+]
+export  const sliderImages =[
+  {
+    "id": 1,
+    "image": baner1,
+    "alt": "Luxury Car Front View"
+  },
+  {
+    "id": 2,
+    "image": baner2,
+    "alt": "Sports Car on Highway"
+  },
+  {
+    "id": 3,
+    "image":baner3,
+    "alt": "SUV in City Lights"
   }
 ]
