@@ -13,7 +13,8 @@ const Home = () => {
     const navigate = useNavigate();
     return (
         <div >
-            <div className=" mt-20  md:absolute z-1  lg:left-100" >
+            <div className=" mt-20  md:absolute z-1 sm:left-10 lg:left-70 " >
+                {/* <div className="mt-20 flex justify-center md:justify-center items-center w-full"> */}
                 <Date />
                 <h2
                     className="text-7xl font-bold text-center "
